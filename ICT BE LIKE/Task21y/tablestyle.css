@@ -1,0 +1,10 @@
+td:first-child {
+  text-align: center;
+}
+td {
+  text-align: right;
+}
+td,
+th {
+  border: 4px solid black;
+}

@@ -1,0 +1,23 @@
+h1	{ font-family: "Helvetica","Arial Narrow", sans-serif;
+          font-size: 48pt;
+          text-align: center;
+          font-style: italic;
+	  color:#ffa500;}
+
+h2 	{ font-family: "Courier Narrow",Courier, monospace;
+          font-size: 20pt;
+          text-align: left;
+          font-weight: bold;
+	  color:#FFFF00;}
+
+h3 	{ font-family: "Courier Narrow",Courier, monospace; 
+          font-size: 14pt;
+          text-align: left;
+	  color:#FFFF00;}
+
+p     	{ font-family: serif;
+          font-size: 14pt;
+          text-align: left;
+	  color:#ffd700;}
+
+body	{background-color:#b22222;}
