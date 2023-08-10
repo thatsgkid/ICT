@@ -1,0 +1,17 @@
+body {
+  background-color: #90ee90;
+}
+table {
+  background-color: #0000ff;
+  border-collapse: collapse;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #000000;
+}
+td {
+  background-color: #2eb757;
+  border-width: 2px;
+}
+thead {
+  background-color: #cfcf00;
+}
