@@ -1,0 +1,39 @@
+body{
+	background-color: #212f36;
+	background-image: url(j2131bg.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+table {
+  border: 0px solid white;
+  border-collapse: separate;
+  border-spacing: 20px;
+  min-width: 400px;
+	margin-left: auto;
+}
+
+td {
+  border: 0px solid white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
+p {
+  color: white;
+	font-size: 12px;
+}
+
+h1,h2,h3,p{
+	font-family: 'San Francisco',Calibri,sans-serif;
+}
+
+/*Likith Aditya IN841 0034*/
