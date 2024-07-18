@@ -1,0 +1,22 @@
+//ACTIVITY 9B
+DECLARE StudentName : STRING
+DECLARE Counter : REAL
+DECLARE StudentMark : REAL
+DECLARE MyChar : CHAR
+DECLARE LetterValue : REAL
+DECLARE Percentage : REAL
+DECLARE Oldstring : STRING
+DECLARE NewString : STRING
+INPUT StudentName
+OUTPUT "You have made an error"
+OUTPUT StudentName
+OUTPUT "Student name is ", StudentName
+Counter <- 1
+Counter <- Counter + 1
+MyChar <- "A"
+LetterValue <- ASC(MyChar)
+StudentMark <- 40
+Percentage <- (StudentMark / 80) * 100
+Oldstring <- "Your mark is"
+NewString <- Oldstring & " ninety-seven"
+// Counter becomes 2, MyChar becomes A, Letter Value is 65, Percentage is 50, Oldstring is unchanged and NewString is "Your mark is ninety-seven"

@@ -1,0 +1,5 @@
+DECLARE number : REAL
+REPEAT
+  OUTPUT "Enter a number "
+  INPUT number
+UNTIL (10<=number AND number=>20) OR number>100

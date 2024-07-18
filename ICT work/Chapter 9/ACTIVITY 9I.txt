@@ -1,0 +1,15 @@
+DECLARE shape : STRING
+DECLARE length : REAL
+DECLARE area : REAL
+OUTPUT "Enter Shape(triangle,square,circle): "
+INPUT shape
+OUTPUT "Enter length: "
+INPUT length
+area <- 0
+CASE OF shape
+  "square" : area <- length * length;
+  "circle" : area <- 3.14 * length * length;
+  "triangle" : area <- 0.25 * 1.71 * length * length;
+  OTHERWISE : OUTPUT "No shape like that";
+ENDCASE
+OUTPUT area

@@ -1,0 +1,20 @@
+DECLARE MarathonHours : REAL
+DECLARE MarathonMinutes : REAL
+DECLARE MarathonSeconds: REAL
+DECLARE total : REAL
+DECLARE best : REAL
+OUTPUT "Enter the time you took to run the marathon"
+OUTPUT "Enter hours"
+INPUT MarathonHours
+OUTPUT "Enter minutes"
+INPUT MarathonMinutes
+OUTPUT "Enter seconds"
+INPUT MarathonSeconds
+total <- (MarathonHours*60*60)+(MarathonMinutes*60)+(MarathonSeconds)
+OUTPUT "Enter best in seconds"
+INPUT best
+IF best > total THEN
+  best <- total
+ENDIF
+OUTPUT "Best time is: "
+OUTPUT best
