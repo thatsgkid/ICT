@@ -1,5 +1,0 @@
-ACTIVITY 9A:
-1) Ask for size of the polygon's sides which will be stored s
-2) Ask for number of sides which will be stored n
-3) Calculate the angles in the polygon through 180*(n-2)/2
-4) Use a module like turtle and a repeating loop that repeats n times, drawing a line of side of size s and turns by angle calculated in previous step
