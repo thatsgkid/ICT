@@ -1,5 +1,5 @@
 # ICT
 # CS ig
-ICT HTML chapter  and shi
+ICT HTML chapter 
 ![](https://github.com/thatsgkid/ICT/blob/main/future-devil-dance.gif)
 
